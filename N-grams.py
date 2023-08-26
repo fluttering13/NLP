@@ -49,8 +49,9 @@ def N_grams_gneration(N,article_processed,Word):
 
 N=3
 text_name='test-story-1'
-text_path='./'+text_name+'.txt'
-path = "./"+text_name+'_N-grams/'
+
+path = './N-grams/'+text_name+'_N-grams/'
+text_path='./N-grams/'+text_name+'.txt'
 save_file_path=path+text_name+'_'+str(N)+'_gram'+'.pkl'
 
 ###建立路徑
