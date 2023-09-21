@@ -96,6 +96,8 @@ pickle.dump(list(corpus),output)
 # corpus = trigram_phraser[corpus]
 # print(list(corpus)[-2])
 '''
+window
+the number of words to predict the output
 
 alpha
 The initial learning rate.

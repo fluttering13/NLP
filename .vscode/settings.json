@@ -6,6 +6,7 @@
         "gdown",
         "jieba",
         "Jieba",
+        "optimizer",
         "paddlepaddle",
         "phrases",
         "softmax",

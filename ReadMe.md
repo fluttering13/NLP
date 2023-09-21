@@ -58,4 +58,11 @@ wor2vec共分成兩塊 CBOW 與 skip-gram
 
 ## hierarchy softmax
 
+# Transfomer
+這邊是對transformer進行拆包，把局部結構用torch都架了出來
 
+並執行copy 進行測試任務(Input=Output)
+
+標籤有進行feature encoding 做了 labelsmoothing
+
+執行任務時是利用greedy decode 把輸出字樣取出來
